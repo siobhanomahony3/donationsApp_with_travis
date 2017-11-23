@@ -30,7 +30,7 @@ describe('Donationss', function (){
         );
     });
 
-    /* describe('GET /donations', function () {
+     describe('GET /donations', function () {
         it('should GET all the donations', function(done) {
             chai.request(server)
                 .get('/donations')
@@ -47,7 +47,7 @@ describe('Donationss', function (){
                     done();
                 });
         });
-    });*/
+    });
     describe('POST /donations', function () {
         it('should return confirmation message and update datastore', function(done) {
             var donation = { 
@@ -79,7 +79,7 @@ describe('Donationss', function (){
                 });
         });
     });
-/*
+
     describe('PUT /donations/:id/votes', function () {
         it('should return all donations with specified donation upvoted by 1', function(done) {
             chai.request(server)
@@ -106,5 +106,5 @@ describe('Donationss', function (){
         });
 
     });
-*/
+
 });
