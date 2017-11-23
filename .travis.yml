@@ -1,13 +1,12 @@
- language: node_js
- node_js:
+language: node_js
+node_js:
  - stable
- branches:
+branches:
    only:
    - development
-  notifications:
+notifications:
     email:
       recipients:
-        - one@example.com      # uae your own
-        - other@example.com    # uae other (optional)
+        - siobhanomahony1994@hotmail.com
       on_success: never        # default: change
       on_failure: always       # default: always
